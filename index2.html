@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>OKA4School STEAM on Wheels</title>
+  <meta name="description" content="Index page for OKA4School STEAM on Wheels linking to About, Our Work, Programs, and Contact pages." />
+  <link rel="preconnect" href="https://api.fontshare.com" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://api.fontshare.com/v2/css?f[]=satoshi@400,500,700&f[]=boska@400,500,700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="./assets/index.css" />
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <header class="site-header">
+    <div class="container header-inner">
+      <a href="#top" class="brand" aria-label="OKA4School home">
+        <span class="brand-mark">OKA</span>
+        <span class="brand-text">
+          <strong>OKA4School</strong>
+          <small>STEAM on Wheels</small>
+        </span>
+      </a>
+      <nav class="site-nav" aria-label="Primary navigation">
+        <a href="#pages">Pages</a>
+        <a href="#use">How to use</a>
+        <button class="theme-toggle" type="button" data-theme-toggle aria-label="Switch to dark mode">◐</button>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="hero section" id="top">
+      <div class="container hero-layout">
+        <div class="hero-copy">
+          <p class="eyebrow">Welcome</p>
+          <h1>One simple entry page for the OKA4School site structure.</h1>
+          <p class="hero-lead">This index page gives you a clean homepage-style entry point that links to the About, Our Work, Programs, and Contact pages already created for the OKA4School website.</p>
+          <div class="hero-actions">
+            <a class="button button-primary" href="#pages">View pages</a>
+            <a class="button button-secondary" href="#use">Setup notes</a>
+          </div>
+        </div>
+        <aside class="hero-panel">
+          <p class="mini-title">Current site map</p>
+          <ul class="site-map">
+            <li>About</li>
+            <li>Our Work</li>
+            <li>Programs</li>
+            <li>Contact</li>
+          </ul>
+        </aside>
+      </div>
+    </section>
+
+    <section class="section section-soft" id="pages">
+      <div class="container section-intro narrow">
+        <p class="eyebrow">Site pages</p>
+        <h2>Open the main pages from one place.</h2>
+      </div>
+      <div class="container card-grid">
+        <article class="page-card featured">
+          <h3>About</h3>
+          <p>Mission, story, priorities, and where the work begins.</p>
+          <a href="about.html">Open About page</a>
+        </article>
+        <article class="page-card featured">
+          <h3>Our Work</h3>
+          <p>Overview of priorities, programs, and the pilot framing.</p>
+          <a href="our-work.html">Open Our Work page</a>
+        </article>
+        <article class="page-card featured">
+          <h3>Programs</h3>
+          <p>Core program strands and the impact model.</p>
+          <a href="programs.html">Open Programs page</a>
+        </article>
+        <article class="page-card">
+          <h3>Contact</h3>
+          <p>Public contact structure for schools, partners, and supporters.</p>
+          <a href="contact.html">Open Contact page</a>
+        </article>
+      </div>
+    </section>
+
+    <section class="section" id="use">
+      <div class="container notes-layout">
+        <div>
+          <p class="eyebrow">How to use</p>
+          <h2>Adjust the links if you move files into one folder.</h2>
+        </div>
+        <div class="notes-card">
+          <p>If you place all pages in the same website folder, you should update the links so they match your final folder structure.</p>
+          <ul>
+            <li>If all HTML files sit together, use links like <code>about.html</code> and <code>contact.html</code>.</li>
+            <li>If they stay in separate folders, keep the relative paths as written.</li>
+            <li>Replace placeholder contact details inside the Contact page before publishing.</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <script src="./assets/index.js" defer></script>
+</body>
+</html>
